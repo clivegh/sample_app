@@ -18,7 +18,11 @@ group :assets do
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
-end
+  end
+
+  group :test do
+    gem 'webrat'
+  end
 
 gem 'jquery-rails'
 
